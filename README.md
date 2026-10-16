@@ -187,4 +187,9 @@ checkpoint 里存了训练时的配置，`src/model.py` 的 `load_dncnn()` 按�
 
 ## 许可
 
-代码 MIT（见 [LICENSE](LICENSE)）。数据集版权归各自作者所有。
+代码 [MIT](LICENSE)。
+
+数据集版权归各自作者所有，**本仓库不包含任何数据集文件**，只提供 `download_data.py` 下载脚本：
+
+- BSDS500 / BSD400 — [BIDS](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/)
+- BSD68、Set12 — [cszn/DnCNN](https://github.com/cszn/DnCNN) 官方测试集
