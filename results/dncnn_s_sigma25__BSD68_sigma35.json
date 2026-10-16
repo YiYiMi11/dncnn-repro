@@ -1,0 +1,456 @@
+{
+  "dataset": "BSD68",
+  "sigma": 35.0,
+  "color": false,
+  "self_ensemble": false,
+  "ckpt": "experiments/adam_gray25/model_final.pth",
+  "device": "mps",
+  "merge_bn": true,
+  "seed": 0,
+  "n_images": 68,
+  "psnr_noisy": 17.249582108023898,
+  "psnr_dncnn": 22.999800040713794,
+  "ssim_dncnn": 0.5173910777174859,
+  "time_total_s": 5.0681517124176025,
+  "time_per_image_ms": 74.53164282967062,
+  "per_image": [
+    {
+      "name": "test001",
+      "psnr_noisy": 17.27146538231192,
+      "psnr_dncnn": 22.05588901236075,
+      "ssim_dncnn": 0.6112181684646184
+    },
+    {
+      "name": "test002",
+      "psnr_noisy": 17.266685274747278,
+      "psnr_dncnn": 23.918399210048783,
+      "ssim_dncnn": 0.5191900022117005
+    },
+    {
+      "name": "test003",
+      "psnr_noisy": 17.2582113741047,
+      "psnr_dncnn": 23.02464368943269,
+      "ssim_dncnn": 0.4160737078906472
+    },
+    {
+      "name": "test004",
+      "psnr_noisy": 17.291672627884946,
+      "psnr_dncnn": 23.362315384743443,
+      "ssim_dncnn": 0.4558130964469055
+    },
+    {
+      "name": "test005",
+      "psnr_noisy": 17.245374804448282,
+      "psnr_dncnn": 22.89217760714771,
+      "ssim_dncnn": 0.5943670207061623
+    },
+    {
+      "name": "test006",
+      "psnr_noisy": 17.24361250821848,
+      "psnr_dncnn": 23.961522840031467,
+      "ssim_dncnn": 0.41171284388705426
+    },
+    {
+      "name": "test007",
+      "psnr_noisy": 17.25776730188419,
+      "psnr_dncnn": 22.937924374818465,
+      "ssim_dncnn": 0.5727154573354248
+    },
+    {
+      "name": "test008",
+      "psnr_noisy": 17.26860190900825,
+      "psnr_dncnn": 22.168216256909815,
+      "ssim_dncnn": 0.5857002397045797
+    },
+    {
+      "name": "test009",
+      "psnr_noisy": 17.262606166403465,
+      "psnr_dncnn": 23.311859644274154,
+      "ssim_dncnn": 0.5240570627344058
+    },
+    {
+      "name": "test010",
+      "psnr_noisy": 17.23878760492926,
+      "psnr_dncnn": 23.021952702231232,
+      "ssim_dncnn": 0.4403903851934833
+    },
+    {
+      "name": "test011",
+      "psnr_noisy": 17.255063178691522,
+      "psnr_dncnn": 23.167203620681164,
+      "ssim_dncnn": 0.6396960515211041
+    },
+    {
+      "name": "test012",
+      "psnr_noisy": 17.258704993462715,
+      "psnr_dncnn": 22.76347694017617,
+      "ssim_dncnn": 0.5388263832676325
+    },
+    {
+      "name": "test013",
+      "psnr_noisy": 17.2656688513668,
+      "psnr_dncnn": 23.00470713135701,
+      "ssim_dncnn": 0.4857394349071586
+    },
+    {
+      "name": "test014",
+      "psnr_noisy": 17.225738390617504,
+      "psnr_dncnn": 23.247435802802162,
+      "ssim_dncnn": 0.39650284012812254
+    },
+    {
+      "name": "test015",
+      "psnr_noisy": 17.26154287566255,
+      "psnr_dncnn": 22.561715806414604,
+      "ssim_dncnn": 0.5473693334576718
+    },
+    {
+      "name": "test016",
+      "psnr_noisy": 17.239325198235157,
+      "psnr_dncnn": 22.635855759595472,
+      "ssim_dncnn": 0.655968297513541
+    },
+    {
+      "name": "test017",
+      "psnr_noisy": 17.24005083041081,
+      "psnr_dncnn": 24.415027484769244,
+      "ssim_dncnn": 0.44312149544537016
+    },
+    {
+      "name": "test018",
+      "psnr_noisy": 17.247491744842513,
+      "psnr_dncnn": 23.641596273333214,
+      "ssim_dncnn": 0.3403694844206811
+    },
+    {
+      "name": "test019",
+      "psnr_noisy": 17.23536365018398,
+      "psnr_dncnn": 22.81032185807029,
+      "ssim_dncnn": 0.4990018257312791
+    },
+    {
+      "name": "test020",
+      "psnr_noisy": 17.235012360108534,
+      "psnr_dncnn": 23.001962095104837,
+      "ssim_dncnn": 0.43077137967420914
+    },
+    {
+      "name": "test021",
+      "psnr_noisy": 17.23696677111786,
+      "psnr_dncnn": 22.209555229218964,
+      "ssim_dncnn": 0.6921579963228298
+    },
+    {
+      "name": "test022",
+      "psnr_noisy": 17.231445275980228,
+      "psnr_dncnn": 22.42761416522731,
+      "ssim_dncnn": 0.6514251766452344
+    },
+    {
+      "name": "test023",
+      "psnr_noisy": 17.256899710002777,
+      "psnr_dncnn": 22.853044540206998,
+      "ssim_dncnn": 0.5326800680264893
+    },
+    {
+      "name": "test024",
+      "psnr_noisy": 17.243043782208932,
+      "psnr_dncnn": 23.384225090490784,
+      "ssim_dncnn": 0.6431154713235091
+    },
+    {
+      "name": "test025",
+      "psnr_noisy": 17.25331902330487,
+      "psnr_dncnn": 23.09684912003576,
+      "ssim_dncnn": 0.4514671642547214
+    },
+    {
+      "name": "test026",
+      "psnr_noisy": 17.23902561458768,
+      "psnr_dncnn": 22.887927008211435,
+      "ssim_dncnn": 0.5315140244986821
+    },
+    {
+      "name": "test027",
+      "psnr_noisy": 17.27721166766315,
+      "psnr_dncnn": 23.238888640260818,
+      "ssim_dncnn": 0.4503105594767369
+    },
+    {
+      "name": "test028",
+      "psnr_noisy": 17.272493903954445,
+      "psnr_dncnn": 27.54315355407026,
+      "ssim_dncnn": 0.616276460838914
+    },
+    {
+      "name": "test029",
+      "psnr_noisy": 17.256094903878193,
+      "psnr_dncnn": 21.142722226170633,
+      "ssim_dncnn": 0.6613323512203304
+    },
+    {
+      "name": "test030",
+      "psnr_noisy": 17.23846937031014,
+      "psnr_dncnn": 22.968629076150847,
+      "ssim_dncnn": 0.4411890869402855
+    },
+    {
+      "name": "test031",
+      "psnr_noisy": 17.247193869673506,
+      "psnr_dncnn": 21.133122922979112,
+      "ssim_dncnn": 0.7115011185369511
+    },
+    {
+      "name": "test032",
+      "psnr_noisy": 17.23793067425034,
+      "psnr_dncnn": 22.094904679310513,
+      "ssim_dncnn": 0.6602578706621481
+    },
+    {
+      "name": "test033",
+      "psnr_noisy": 17.235784116354033,
+      "psnr_dncnn": 22.514736575324022,
+      "ssim_dncnn": 0.5083162750551051
+    },
+    {
+      "name": "test034",
+      "psnr_noisy": 17.227056170925962,
+      "psnr_dncnn": 23.919541967260592,
+      "ssim_dncnn": 0.39639956566119017
+    },
+    {
+      "name": "test035",
+      "psnr_noisy": 17.22612781852897,
+      "psnr_dncnn": 22.771738552841825,
+      "ssim_dncnn": 0.5138522162010457
+    },
+    {
+      "name": "test036",
+      "psnr_noisy": 17.225091588326137,
+      "psnr_dncnn": 22.31534438504319,
+      "ssim_dncnn": 0.38475369418136013
+    },
+    {
+      "name": "test037",
+      "psnr_noisy": 17.224283944803112,
+      "psnr_dncnn": 22.82206913220567,
+      "ssim_dncnn": 0.45182648177595797
+    },
+    {
+      "name": "test038",
+      "psnr_noisy": 17.23977679871864,
+      "psnr_dncnn": 22.970396174751837,
+      "ssim_dncnn": 0.49592954050257015
+    },
+    {
+      "name": "test039",
+      "psnr_noisy": 17.26388751202946,
+      "psnr_dncnn": 23.533577416793463,
+      "ssim_dncnn": 0.44864966184422467
+    },
+    {
+      "name": "test040",
+      "psnr_noisy": 17.260218310464044,
+      "psnr_dncnn": 23.141471100958814,
+      "ssim_dncnn": 0.49865473114109277
+    },
+    {
+      "name": "test041",
+      "psnr_noisy": 17.24815446191399,
+      "psnr_dncnn": 22.98065431581762,
+      "ssim_dncnn": 0.5682921943191662
+    },
+    {
+      "name": "test042",
+      "psnr_noisy": 17.230683449267904,
+      "psnr_dncnn": 22.89774870042422,
+      "ssim_dncnn": 0.4257458346445257
+    },
+    {
+      "name": "test043",
+      "psnr_noisy": 17.24891067823689,
+      "psnr_dncnn": 23.427779235342392,
+      "ssim_dncnn": 0.5321049547388825
+    },
+    {
+      "name": "test044",
+      "psnr_noisy": 17.22392992426569,
+      "psnr_dncnn": 22.309827702307217,
+      "ssim_dncnn": 0.5406376184799498
+    },
+    {
+      "name": "test045",
+      "psnr_noisy": 17.268555090145114,
+      "psnr_dncnn": 23.50484344786939,
+      "ssim_dncnn": 0.3114887604650241
+    },
+    {
+      "name": "test046",
+      "psnr_noisy": 17.266257775701177,
+      "psnr_dncnn": 22.12000521529935,
+      "ssim_dncnn": 0.6220801667859915
+    },
+    {
+      "name": "test047",
+      "psnr_noisy": 17.242743710802507,
+      "psnr_dncnn": 22.066259014337327,
+      "ssim_dncnn": 0.5952015927400869
+    },
+    {
+      "name": "test048",
+      "psnr_noisy": 17.247952291354252,
+      "psnr_dncnn": 23.55491197722695,
+      "ssim_dncnn": 0.6016203954044721
+    },
+    {
+      "name": "test049",
+      "psnr_noisy": 17.236090173470696,
+      "psnr_dncnn": 23.811575107300428,
+      "ssim_dncnn": 0.40642359331206923
+    },
+    {
+      "name": "test050",
+      "psnr_noisy": 17.235939711000864,
+      "psnr_dncnn": 22.365383614065692,
+      "ssim_dncnn": 0.5827294092006231
+    },
+    {
+      "name": "test051",
+      "psnr_noisy": 17.27889798355257,
+      "psnr_dncnn": 22.75235904392488,
+      "ssim_dncnn": 0.5263687394950153
+    },
+    {
+      "name": "test052",
+      "psnr_noisy": 17.273038665789542,
+      "psnr_dncnn": 24.112314244429683,
+      "ssim_dncnn": 0.42772499297795613
+    },
+    {
+      "name": "test053",
+      "psnr_noisy": 17.24345947834533,
+      "psnr_dncnn": 23.114129578249937,
+      "ssim_dncnn": 0.3383179249079061
+    },
+    {
+      "name": "test054",
+      "psnr_noisy": 17.253499642983453,
+      "psnr_dncnn": 22.88826315082462,
+      "ssim_dncnn": 0.5396999481043993
+    },
+    {
+      "name": "test055",
+      "psnr_noisy": 17.2177050540965,
+      "psnr_dncnn": 22.58366998458579,
+      "ssim_dncnn": 0.5736699547162679
+    },
+    {
+      "name": "test056",
+      "psnr_noisy": 17.253784171494203,
+      "psnr_dncnn": 20.882621468546855,
+      "ssim_dncnn": 0.6765304374430657
+    },
+    {
+      "name": "test057",
+      "psnr_noisy": 17.270293328195084,
+      "psnr_dncnn": 22.793572378484242,
+      "ssim_dncnn": 0.43416473805486955
+    },
+    {
+      "name": "test058",
+      "psnr_noisy": 17.239922467502687,
+      "psnr_dncnn": 23.07115262754153,
+      "ssim_dncnn": 0.33123544578485
+    },
+    {
+      "name": "test059",
+      "psnr_noisy": 17.27450985543718,
+      "psnr_dncnn": 23.25426295569251,
+      "ssim_dncnn": 0.3837281407082508
+    },
+    {
+      "name": "test060",
+      "psnr_noisy": 17.241013670306817,
+      "psnr_dncnn": 23.155133948206764,
+      "ssim_dncnn": 0.33166228596496167
+    },
+    {
+      "name": "test061",
+      "psnr_noisy": 17.259778164046374,
+      "psnr_dncnn": 23.21953996985382,
+      "ssim_dncnn": 0.3787046574936387
+    },
+    {
+      "name": "test062",
+      "psnr_noisy": 17.249675819272436,
+      "psnr_dncnn": 26.068770340539658,
+      "ssim_dncnn": 0.6777653810837181
+    },
+    {
+      "name": "test063",
+      "psnr_noisy": 17.243594932316,
+      "psnr_dncnn": 22.16761236588965,
+      "ssim_dncnn": 0.6626761982872472
+    },
+    {
+      "name": "test064",
+      "psnr_noisy": 17.264124439461334,
+      "psnr_dncnn": 22.327289088015327,
+      "ssim_dncnn": 0.5549859533130482
+    },
+    {
+      "name": "test065",
+      "psnr_noisy": 17.244347315075153,
+      "psnr_dncnn": 24.035002571663053,
+      "ssim_dncnn": 0.6337410635558715
+    },
+    {
+      "name": "test066",
+      "psnr_noisy": 17.2437854323766,
+      "psnr_dncnn": 23.65935294279786,
+      "ssim_dncnn": 0.2502036726373617
+    },
+    {
+      "name": "test067",
+      "psnr_noisy": 17.26297807472541,
+      "psnr_dncnn": 21.355073324140136,
+      "ssim_dncnn": 0.7629481784530824
+    },
+    {
+      "name": "test068",
+      "psnr_noisy": 17.246889729883804,
+      "psnr_dncnn": 22.63357940334577,
+      "ssim_dncnn": 0.661927025965613
+    }
+  ],
+  "train_args": {
+    "color": false,
+    "gray": true,
+    "sigma": 25.0,
+    "data_root": "data",
+    "patch_size": 40,
+    "batch_size": 128,
+    "patches_per_epoch": 204800,
+    "epochs": 12,
+    "aug": false,
+    "seed": 0,
+    "depth": 17,
+    "width": 64,
+    "init": "orthogonal",
+    "init_gain": 0.2,
+    "optimizer": "adam",
+    "lr": 0.0001,
+    "lr_min": 1e-06,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "loss": "l2",
+    "clip_grad": 0.0,
+    "preset": "fast",
+    "amp": false,
+    "val_every": 1,
+    "ckpt_every": 1000,
+    "val_holdout": 8,
+    "out": "experiments/adam_gray25",
+    "quick": false
+  }
+}

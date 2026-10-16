@@ -1,0 +1,26 @@
+[project]
+name = "dncnn-repro"
+version = "0.1.0"
+description = "DnCNN (TIP 2017) 复现：已知噪声级 vs 盲去噪的鲁棒性对照"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.3",
+    "numpy>=1.24",
+    "pillow>=10.0",
+    "scikit-image>=0.22",
+    "matplotlib>=3.7",
+    "certifi>=2023.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+# src.data.TestSet 是数据类，不是测试类；名字以 Test 开头会被 pytest 尝试收集
+python_classes = ["Test*Case"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

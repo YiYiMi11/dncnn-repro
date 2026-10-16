@@ -1,0 +1,6 @@
+torch>=2.3
+numpy>=1.24
+pillow>=10.0
+scikit-image>=0.22
+matplotlib>=3.7
+certifi>=2023.7

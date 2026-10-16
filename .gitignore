@@ -1,0 +1,48 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# ---- 测试 / 覆盖率 ----
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 数据集（需自行下载，见 README） ----
+data/
+!data/.gitkeep
+
+# ---- 训练产物 ----
+# checkpoints/ 是**故意提交**的（各 2MB 左右，方便 clone 下来直接跑 demo），
+# 但 experiments/ 下的中间 checkpoint 一律不进仓库。
+experiments/
+logs/
+runs/
+*.pth.tmp
+*.ckpt
+
+# ---- 生成的结果（results/ 下的 JSON 与 tables.md 故意提交，作为实验记录） ----
+results/BSD68_sigma*/
+results/Set12_sigma*/
+results/**/*.png
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# ---- 论文与二进制 ----
+*.pdf
+*.docx
